@@ -1,0 +1,144 @@
+.icon{
+    margin: 10px;
+    height: 25px;
+    width: 201px;
+}
+
+.topBarButton{
+    margin: 10px;
+    height: 45px;
+    width: 150px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 75px;
+}
+
+.topBarButtonVar2{
+    margin: 10px;
+    height: 45px;
+    width: 150px;
+    background-color: rgb(47, 201, 129);
+    border-style: solid;
+    border-color: rgb(47, 201, 129);
+    border-width: 1px;
+    border-radius: 75px;
+}
+
+.searchBar{
+    margin: 10px;
+    height: 45px;
+    width: 400px;
+    background-color: rgb(71, 64, 64);
+    border-style: solid;
+    border-color: rgb(71, 64, 64);
+    border-width: 1px;
+    border-radius: 75px;
+}
+
+.searchbarText{
+    color:white;
+    display: right;
+    justify-content: right;
+    align-items: right;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-weight: semibold;
+    font-size: 20px;
+}
+
+.buttonText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.titleBarGrid {
+    display: grid;
+    grid-template-columns: 250px 170px 170px 700px 170px 280px 170px;
+}
+
+.filterSection{
+    display: grid;
+    grid-template-columns: 100px 120px 100px;
+}
+
+/* These are the dropdowns */
+.dropbtn {
+  height: 35px;
+  background-color: #04AA6D;
+  color: white;
+  padding: 21px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content a {
+  font-family: 'Roboto';
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.mainGrid{
+  padding-top: 50px;
+  display: grid;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 450px 450px 450px 450px;
+}
+
+.infoBox{
+  width: 370px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: darkslategray;
+}
+
+.infoBoxTitle{
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.infoBoxSpec{
+  font-family: 'Roboto';
+  font-weight: light;
+}
+
+
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
