@@ -59,7 +59,7 @@
 
 .titleBarGrid {
     display: grid;
-    grid-template-columns: 250px 170px 170px 700px 170px 280px 170px;
+    grid-template-columns: 250px 170px 170px 700px 170px 250px 170px;
 }
 
 .filterSection{
@@ -106,7 +106,7 @@
 .mainGrid{
   padding-top: 50px;
   display: grid;
-  grid-template-rows: 150px 150px;
+  grid-template-rows: 350px 350px 350px;
   grid-template-columns: 450px 450px 450px 450px;
 }
 
