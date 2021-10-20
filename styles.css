@@ -2,6 +2,15 @@
     margin: 10px;
     height: 25px;
     width: 201px;
+    float: left;
+}
+
+.logoButtons {
+  /*width: 70%;*/
+}
+
+.barLogin {
+  /*width: 30%;*/
 }
 
 .topBarButton{
@@ -12,6 +21,7 @@
     border-style: solid;
     border-width: 1px;
     border-radius: 75px;
+    float: left;
 }
 
 .topBarButtonVar2{
@@ -25,15 +35,33 @@
     border-radius: 75px;
 }
 
+#topUploadButton {
+  float: left;
+}
+
+#topSignInButton {
+  float: right;
+}
+
 .searchBar{
     margin: 10px;
     height: 45px;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     background-color: rgb(71, 64, 64);
     border-style: solid;
     border-color: rgb(71, 64, 64);
     border-width: 1px;
     border-radius: 75px;
+    float: right;
+    color:white;
+    display: right;
+    justify-content: right;
+    align-items: right;
+    padding-left: 10px;
+    font-family: 'Roboto';
+    font-weight: semibold;
+    font-size: 20px;
 }
 
 .searchbarText{
@@ -59,7 +87,7 @@
 
 .titleBarGrid {
     display: grid;
-    grid-template-columns: 250px 170px 170px 700px 170px 250px 170px;
+    grid-template-columns: 60% 40%;
 }
 
 .filterSection{
@@ -106,12 +134,15 @@
 .mainGrid{
   padding-top: 50px;
   display: grid;
-  grid-template-rows: 350px 350px 350px;
-  grid-template-columns: 450px 450px 450px 450px;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto auto;
 }
 
 .infoBox{
-  width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100%;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -129,6 +160,18 @@
 .infoBoxSpec{
   font-family: 'Roboto';
   font-weight: light;
+}
+
+.infoBoxImage{
+
+}
+
+/*This makes any image the same size as the div or whatever you're encasing it in*/
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
 }
 
 
