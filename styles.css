@@ -134,7 +134,6 @@
 .mainGrid{
   padding-top: 50px;
   display: grid;
-  /*Adaptive sizes*/
   grid-template-rows: auto auto;
   grid-template-columns: auto auto auto auto;
 }
