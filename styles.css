@@ -3,6 +3,8 @@
     height: 25px;
     width: 201px;
     float: left;
+    padding-bottom: 22px;
+    padding-right: 40px;
 }
 
 .logoButtons {
@@ -136,6 +138,10 @@
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: auto auto auto auto;
+}
+
+.mainGridSection {
+  padding-bottom: 15%;
 }
 
 .infoBox{

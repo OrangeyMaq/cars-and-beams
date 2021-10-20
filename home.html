@@ -10,13 +10,13 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles.css" />
-
+    <script src="JS/pageFunctionality.js"></script>
   </head>
 
-  <body>
-    <section class="titleBarGrid">
+  <body onload="changeLogoPad()">
+    <section class="titleBarGrid" id="titleBarGrid">
       <div class="logoButtons">
-        <div class="icon">
+        <div class="icon" id="icon">
          <img class="icon" src="icon.png" alt="Cars And Beams" />
         </div>
 
@@ -73,7 +73,7 @@
     </section>
 
     <section class="mainGrid">
-      <section>
+      <section class="mainGridSection">
         <div class="infoBox">
           <div class="infoBoxImage">
             <img src="thumbs/F1® 2019 2020-07-13 13-26-40.png" alt="Thumbnail " width="370px" height="250px">
@@ -89,7 +89,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="mainGridSection">
         <div class="infoBox">
           <div class="infoBoxImage">
             <img src="thumbs/test123.png" alt="Thumbnail for the first ever tune of CAB(test123). A BeamNG meme. " width="370px" height="250px">
@@ -105,7 +105,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="mainGridSection">
         <div class="infoBox">
           <div class="infoBoxImage">
             <img src="thumbs/Forza Horizon 4 2020-12-28 16-27-27.png" alt="Thumbnail for the first ever tune of CAB(test123). A BeamNG meme. " width="370px" height="250px">
@@ -121,7 +121,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="mainGridSection">
         <div class="infoBox">
           <div class="infoBoxImage">
             <img src="thumbs/rb15.png" alt="Thumbnail for the first ever tune of CAB(test123). A BeamNG meme. " width="370px" height="250px">
@@ -137,6 +137,134 @@
         </div>
       </section>
 
+      <section class="mainGridSection">
+        <div class="infoBox">
+          <div class="infoBoxImage">
+            <img src="thumbs/rb15.png" alt="Thumbnail for the first ever tune of CAB(test123). A BeamNG meme. " width="370px" height="250px">
+          </div>
+
+          <a href="test.html" class="infoBoxTitle">
+            Test123
+          </a>
+
+          <div class="infoBoxSpec">
+            Epic Car, Big Drift, Big Bong
+          </div>
+        </div>
+      </section>
+
+      <section class="mainGridSection">
+        <div class="infoBox">
+          <div class="infoBoxImage">
+            <img src="thumbs/Forza Horizon 4 2020-12-28 16-27-27.png" alt="Thumbnail for the first ever tune of CAB(test123). A BeamNG meme. " width="370px" height="250px">
+          </div>
+
+          <a href="test.html" class="infoBoxTitle">
+            Test123
+          </a>
+
+          <div class="infoBoxSpec">
+            Epic Car, Big Drift, Big Bong
+          </div>
+        </div>
+      </section>
+
+      <section class="mainGridSection">
+        <div class="infoBox">
+          <div class="infoBoxImage">
+            <img src="thumbs/test123.png" alt="Thumbnail for the first ever tune of CAB(test123). A BeamNG meme. " width="370px" height="250px">
+          </div>
+
+          <a href="test.html" class="infoBoxTitle">
+            Test123
+          </a>
+
+          <div class="infoBoxSpec">
+            Epic Car, Big Drift, Big Bong
+          </div>
+        </div>
+      </section>
+
+      <section class="mainGridSection">
+        <div class="infoBox">
+          <div class="infoBoxImage">
+            <img src="thumbs/F1® 2019 2020-07-13 13-26-40.png" alt="Thumbnail " width="370px" height="250px">
+          </div>
+
+          <a href="test.html" class="infoBoxTitle">
+            Test123
+          </a>
+
+          <div class="infoBoxSpec">
+            Epic Car, Big Drift, Big Bong
+          </div>
+        </div>
+      </section>
+
+      <!--<section>
+        <div class="infoBox">
+          <div class="infoBoxImage">
+            <img src="/thumbs/F1® 2019 2020-07-13 13-26-40.png" alt="Thumbnail " width="370px" height="250px">
+          </div>
+
+          <a href="test.html" class="infoBoxTitle">
+            Test123
+          </a>
+
+          <div class="infoBoxSpec">
+            Epic Car, Big Drift, Big Bong
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="infoBox">
+          <div class="infoBoxImage">
+            <img src="/thumbs/rb15.png" alt="Thumbnail for the first ever tune of CAB(test123). A BeamNG meme. " width="370px" height="250px">
+          </div>
+
+          <a href="test.html" class="infoBoxTitle">
+            Test123
+          </a>
+
+          <div class="infoBoxSpec">
+            Epic Car, Big Drift, Big Bong
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="infoBox">
+          <div class="infoBoxImage">
+            <img src="/thumbs/rb15.png" alt="Thumbnail for the first ever tune of CAB(test123). A BeamNG meme. " width="370px" height="250px">
+          </div>
+
+          <a href="test.html" class="infoBoxTitle">
+            Test123
+          </a>
+
+          <div class="infoBoxSpec">
+            Epic Car, Big Drift, Big Bong
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="infoBox">
+          <div class="infoBoxImage">
+            <img src="/thumbs/Forza Horizon 4 2020-12-28 16-27-27.png" alt="Thumbnail for the first ever tune of CAB(test123). A BeamNG meme. " width="370px" height="250px">
+          </div>
+
+          <a href="test.html" class="infoBoxTitle">
+            Test123
+          </a>
+
+          <div class="infoBoxSpec">
+            Epic Car, Big Drift, Big Bong
+          </div>
+        </div>
+      </section>
+
       <section>
         <div class="infoBox">
           <div class="infoBoxImage">
@@ -263,135 +391,7 @@
             Epic Car, Big Drift, Big Bong
           </div>
         </div>
-      </section>
-
-      <section>
-        <div class="infoBox">
-          <div class="infoBoxImage">
-            <img src="/thumbs/rb15.png" alt="Thumbnail for the first ever tune of CAB(test123). A BeamNG meme. " width="370px" height="250px">
-          </div>
-
-          <a href="test.html" class="infoBoxTitle">
-            Test123
-          </a>
-
-          <div class="infoBoxSpec">
-            Epic Car, Big Drift, Big Bong
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="infoBox">
-          <div class="infoBoxImage">
-            <img src="/thumbs/Forza Horizon 4 2020-12-28 16-27-27.png" alt="Thumbnail for the first ever tune of CAB(test123). A BeamNG meme. " width="370px" height="250px">
-          </div>
-
-          <a href="test.html" class="infoBoxTitle">
-            Test123
-          </a>
-
-          <div class="infoBoxSpec">
-            Epic Car, Big Drift, Big Bong
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="infoBox">
-          <div class="infoBoxImage">
-            <img src="/thumbs/test123.png" alt="Thumbnail for the first ever tune of CAB(test123). A BeamNG meme. " width="370px" height="250px">
-          </div>
-
-          <a href="test.html" class="infoBoxTitle">
-            Test123
-          </a>
-
-          <div class="infoBoxSpec">
-            Epic Car, Big Drift, Big Bong
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="infoBox">
-          <div class="infoBoxImage">
-            <img src="/thumbs/F1® 2019 2020-07-13 13-26-40.png" alt="Thumbnail " width="370px" height="250px">
-          </div>
-
-          <a href="test.html" class="infoBoxTitle">
-            Test123
-          </a>
-
-          <div class="infoBoxSpec">
-            Epic Car, Big Drift, Big Bong
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="infoBox">
-          <div class="infoBoxImage">
-            <img src="/thumbs/F1® 2019 2020-07-13 13-26-40.png" alt="Thumbnail " width="370px" height="250px">
-          </div>
-
-          <a href="test.html" class="infoBoxTitle">
-            Test123
-          </a>
-
-          <div class="infoBoxSpec">
-            Epic Car, Big Drift, Big Bong
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="infoBox">
-          <div class="infoBoxImage">
-            <img src="/thumbs/rb15.png" alt="Thumbnail for the first ever tune of CAB(test123). A BeamNG meme. " width="370px" height="250px">
-          </div>
-
-          <a href="test.html" class="infoBoxTitle">
-            Test123
-          </a>
-
-          <div class="infoBoxSpec">
-            Epic Car, Big Drift, Big Bong
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="infoBox">
-          <div class="infoBoxImage">
-            <img src="/thumbs/rb15.png" alt="Thumbnail for the first ever tune of CAB(test123). A BeamNG meme. " width="370px" height="250px">
-          </div>
-
-          <a href="test.html" class="infoBoxTitle">
-            Test123
-          </a>
-
-          <div class="infoBoxSpec">
-            Epic Car, Big Drift, Big Bong
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="infoBox">
-          <div class="infoBoxImage">
-            <img src="/thumbs/Forza Horizon 4 2020-12-28 16-27-27.png" alt="Thumbnail for the first ever tune of CAB(test123). A BeamNG meme. " width="370px" height="250px">
-          </div>
-
-          <a href="test.html" class="infoBoxTitle">
-            Test123
-          </a>
-
-          <div class="infoBoxSpec">
-            Epic Car, Big Drift, Big Bong
-          </div>
-        </div>
-      </section>
+      </section>-->
 
 
 
