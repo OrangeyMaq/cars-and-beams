@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+</style>
 <html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Cars and Beams - Mod</title>
+    <title>Cars and Beams</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="JS/pageFunctionality.js"></script>
   </head>
-  <body>
-    <section class="titleBarGrid">
 
-        <a href="home.html">
-          <img alt="Icon" src="icon.png" width="201" height="25">
-        </a>
+  <body onload="changeLogoPad()">
+    <section class="titleBarGrid" id="titleBarGrid">
+      <div class="logoButtons">
+        <div class="icon" id="icon">
+         <img class="icon" src="icon.png" alt="Cars And Beams" />
+        </div>
 
         <div class="topBarButton">
           <div class="buttonText">Tune Browser</div>
@@ -24,21 +28,64 @@
           <div class="buttonText">Mod Browser</div>
         </div>
 
-        <div class="topBarButtonVar2">
+        <div class="topBarButtonVar2" id="topUploadButton">
           <div class="buttonText">Upload</div>
         </div>
-
-        <div class="searchBar">
-          <div class="searchbarText">Search for Tunes and Mods</div>
-        </div>
-
-        <div>
-          <div</div>
-        </div>
-
-        <div class="topBarButtonVar2">
+      </div>
+      <div class="barLogin">
+        <div class="topBarButtonVar2" id="topSignInButton">
             <div class="buttonText">Sign In</div>
         </div>
+
+        <input class="searchBar" placeholder="Search for Tunes and Mods">
+          <div class="searchbarText">Search for Tunes and Mods</div>
+        </input>
+      </div>
+    </section>
+      <section class="modDescriptionGrid"> 
+        <div class="modImage">
+          <img src="thumbs/rb15.png" class="modImage">
+        </div>
+
+
+        <!-- Okay, I know this is a mess but we can tidy this up in the final release... maybe? -->
+
+        <div class="modPhotoGrid">
+          <img src="thumbs/rb15.png" class="modImageSmall">
+          <img src="thumbs/rb15.png" class="modImageSmall">
+          <img src="thumbs/rb15.png" class="modImageSmall">
+          <img src="thumbs/rb15.png" class="modImageSmall">
+          <img src="thumbs/rb15.png" class="modImageSmall">
+          <img src="thumbs/rb15.png" class="modImageSmall">
+
+          <div class="usernameSection">
+            <div class="usernameText">
+              Username, Lvl 42 Professional Tuner, Joined 23.12.2016
+            </div>
+          </div>
+    </section>
+
+    <section class="titlesGrid">
+      <div>
+        <div class="infoBoxTitleD">
+          Test123
+        </div>
+
+       <div class="infoBoxSpecD">
+          Big Car, Big Bong, Big Drift
+       </div>
+      </div>
+
+      <div class="usernameSection">
+        <div class="usernameText">
+          15 Likes, 7 Comments, 8.05 Popularity Points, 4.09 Stars
+       </div>
+      </div>
+
+      
+      <div class="checkOutOnBeam">
+        Check out on BeamNG
+      </div>
     </section>
 
   </body>

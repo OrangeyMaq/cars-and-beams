@@ -7,14 +7,6 @@
     padding-right: 40px;
 }
 
-.logoButtons {
-  /*width: 70%;*/
-}
-
-.barLogin {
-  /*width: 30%;*/
-}
-
 .topBarButton{
     margin: 10px;
     height: 45px;
@@ -168,8 +160,80 @@
   font-weight: light;
 }
 
-.infoBoxImage{
+.modImage{
+  width: 1052px;
+  height: 592px;
+  border-radius: 20px;
+}
 
+.modImageSmall{
+  width: 313px;
+  height: 204px;
+  border-radius: 20px;
+}
+
+.modDescriptionGrid{
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: 1120px 100px;
+}
+
+.modPhotoGrid{
+  padding-left: 93px;
+  display: grid;
+  gap: 28px;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 150px 150px 150px;
+}
+
+.usernameSection{
+  height: 50px;
+  width: 520px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #290611;
+  background-color: #290611;
+}
+
+.usernameText{
+  color: whitesmoke;
+  font-family: 'Roboto';
+  padding: 10px;
+}
+
+.infoBoxTitleD{
+  padding-top: 5px;
+  padding-left: 50px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.infoBoxSpecD{
+  padding-left: 50px;
+  font-family: 'Roboto';
+  font-weight: light;
+}
+
+.checkOutOnBeam{
+  margin: 10px;
+  height: 45px;
+  width: 200px;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+  background-color: rgb(47, 201, 129);
+  border-style: solid;
+  border-color: rgb(47, 201, 129);
+  border-width: 1px;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 45px;
+}
+
+.titlesGrid{
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 576px 1001px 500px;
 }
 
 /*This makes any image the same size as the div or whatever you're encasing it in*/
