@@ -29,6 +29,18 @@
     border-radius: 75px;
 }
 
+.topBarButtonVar3{
+  margin: 10px;
+  height: 45px;
+  width: 150px;
+  float: left;
+  background-color: rgb(47, 201, 129);
+  border-style: solid;
+  border-color: rgb(47, 201, 129);
+  border-width: 1px;
+  border-radius: 75px;
+}
+
 #topUploadButton {
   float: left;
 }
@@ -236,6 +248,50 @@
   grid-template-columns: 576px 1001px 500px;
 }
 
+.loginContainer{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.loginBox{
+  float: right;
+  height: 520px;
+  width: 400px;
+  border-style: solid;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.loginText{
+  font-family: 'Roboto';
+  padding: 10px;
+  margin: 10px;
+}
+
+.loginInput{
+  margin: 10px;
+  height: 45px;
+  max-width: 350px;
+  width: 100%;
+  background-color: rgb(71, 64, 64);
+  border-style: solid;
+  border-color: rgb(71, 64, 64);
+  border-width: 1px;
+  border-radius: 75px;
+  color:white;
+  display: right;
+  justify-content: right;
+  align-items: right;
+  font-family: 'Roboto';
+  font-weight: semibold;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
 /*This makes any image the same size as the div or whatever you're encasing it in*/
 img {
   max-width: 100%;
@@ -243,7 +299,6 @@ img {
   width: auto;
   height: auto;
 }
-
 
 
 
